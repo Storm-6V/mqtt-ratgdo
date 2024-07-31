@@ -85,6 +85,7 @@ void setup(){
 	Serial.println("| __  |  _  |_   _|   __|    \\|     |");
 	Serial.println("|    -|     | | | |  |  |  |  |  |  |");
 	Serial.println("|__|__|__|__| |_| |_____|____/|_____|");
+	Serial.println("https://paulwieland.github.io/ratgdo/");
 	Serial.print("version ");
 	Serial.print(VERSION);
 	#ifdef DISABLE_WIFI
