@@ -102,34 +102,34 @@ void getRollingCode(const char *command){
 
 	if(strcmp(command,"reboot1") == 0){
 		fixed = 0x400000000;
-		data = 0x0000618b;
+		data = 0x0000008b;
 	}else if(strcmp(command,"reboot2") == 0){
 		fixed = 0;
-		data = 0x01009080;
+		data = 0x00000080;
 	}else if(strcmp(command,"reboot3") == 0){
 		fixed = 0;
-		data = 0x0000b1a0;
+		data = 0x000000a0;
 	}else if(strcmp(command,"reboot4") == 0){
 		fixed = 0;
-		data = 0x01009080;
+		data = 0x00000080;
 	}else if(strcmp(command,"reboot5") == 0){
 		fixed = 0x300000000;
-		data = 0x00008092;
+		data = 0x00000092;
 	}else if(strcmp(command,"reboot6") == 0){
 		fixed = 0x300000000;
-		data = 0x00008092;
+		data = 0x00000092;
 	}else if(strcmp(command,"door1") == 0){
 		fixed = 0x200000000;
-		data = 0x01018280;
+		data = 0x01010280;
 	}else if(strcmp(command,"door2") == 0){
 		fixed = 0x200000000;
-		data = 0x01009280;
+		data = 0x01000280;
 	}else if(strcmp(command,"light") == 0){
 		fixed = 0x200000000;
-		data = 0x00009281;
+		data = 0x00000281;
 	}else if(strcmp(command,"lock") == 0){
 		fixed = 0x0100000000;
-		data = 0x0000728c;
+		data = 0x0000028c;
 	}else{
 		Serial.println("ERROR: Invalid command");
 		return;
