@@ -14,5 +14,15 @@
 		"tuple": "cpp",
 		"type_traits": "cpp",
 		"utility": "cpp"
-	}
+	},
+	"boost-test-adapter-robaho.tests": [
+		{
+			"testExecutables": [
+				{
+					"glob": "**/*{_test,_test.exe}"
+				}
+			],
+			"debugConfig": "Test Config"
+		}
+	]
 }
